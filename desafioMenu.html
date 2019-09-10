@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin:0;
+            font-family: 'Oswald', sans-serif;
+            background-color: lightgray;
+        }
+        .cabecalho{
+            
+            background-color: #333;
+            border: solid 5px #4faddb;
+            height: 80px;
+            box-sizing: content-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo{
+            height: 80px;
+            padding: 15px;
+        }
+        .logo img{
+            height: 100%;
+        }
+        .menu{
+            vertical-align: top;
+            height: 80px;
+            padding: 25px;
+             flex: 1;
+        }
+        .menu ul{
+        
+            margin: 0px;
+            padding: 0px;
+             display: flex;
+        }
+
+        .menu li{
+            display: inline-block;
+             margin: 0px 15px;
+        }
+        .cabecalho a{
+            text-decoration: none;
+            color: #eee;
+            font-size: 1.3em;
+        }
+        .menu a{
+            padding: 15px;
+        }
+        .menu a:hover,
+        .menu a.selected{
+            background-color: #4faddb;
+            color: #000;
+            border-radius: 5px;
+        }
+      
+
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="#inicio">
+                <img src="https://image.freepik.com/vetores-gratis/estilo-de-desenho-de-ilustracao-da-colecao-de-comida_53876-44119.jpg" alt="Logo" />
+            </a>
+        </div>
+        <nav class="menu">
+            <ul id="ul">
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <p id="resp"></p>
+        <script src="cod.js">
+        
+        </script> 
+        </body>
+</body>
+
+</html>
