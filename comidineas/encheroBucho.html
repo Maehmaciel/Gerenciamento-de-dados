@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <style>
+  *{
+            box-sizing: border-box;
+        }
+        body{
+            margin:0;
+            background-color: lightgray;
+        }
+        header h1{
+            text-align: center;
+            font-family: 'Cedarville Cursive', cursive;
+        }
+        .conteudo,.cabecalho{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cabecalho{
+            font-family: 'Oswald', sans-serif;
+            background-color: #333;
+            border: solid 5px #4faddb;
+            height: 80px;
+            box-sizing: content-box;
+        }
+        
+        .conteudo{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin:20px;
+        }
+        .menu{
+            vertical-align: top;
+            height: 80px;
+            padding: 25px;
+             align-content: center;
+           
+        }
+        .menu ul{
+        
+            margin: 0px;
+            padding: 0px;
+             display: flex;
+        }
+
+        .menu li{
+            display: inline-block;
+             margin: 0px 15px;
+        }
+        .cabecalho a{
+            text-decoration: none;
+            color: #eee;
+            font-size: 1em;
+            flex: 1;
+        }
+        .menu a{
+            padding: 15px;
+        }
+
+        .menu a:hover,
+        .menu a.selected{
+            background-color: #4faddb;
+            color: #000;
+            border-radius: 5px;
+        }
+ nav ul ul 
+      {
+          position: absolute;
+          display: flex;
+            flex-wrap: wrap;
+           
+
+      }
+      ul ul li{
+        width: 215px;
+        height: 215px;
+            padding: 15px;
+      }
+      ul li img{
+        display: none;
+       width: 100%;
+        height: 100%;
+        box-shadow: 5px 10px 8px 3px #888888;
+      }
+      #ul li:hover .desceu {
+          display: inline-block;
+          margin-top: 30px;
+          
+          }
+
+ 
+     
+
+    </style>
+</head>
+
+<body>
+    <header >
+        <h1>Receitas</h1>
+        <section class="cabecalho">
+        <nav class="menu">
+            <ul id="ul">
+                
+            </ul>
+        </nav>
+    </section>
+    </header>
+
+    <main class="conteudo">
+         <div id="resp">
+
+         </div>   
+    </main>
+        
+        <script src="cod.js">
+        
+        </script> 
+        
+</body>
+
+</html>
