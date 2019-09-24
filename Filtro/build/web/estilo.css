@@ -1,0 +1,42 @@
+*{
+            box-sizing: border-box;
+        }
+        body{
+            margin:0;
+            background-color: lightgray;
+        }
+        header h1{
+            text-align: center;
+            font-family: 'Cedarville Cursive', cursive;
+        }
+        .conteudo,.cabecalho{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cabecalho{
+            font-family: 'Oswald', sans-serif;
+            background-color: #333;
+            border: solid 5px #4faddb;
+            height: 80px;
+            box-sizing: content-box;
+        }
+        
+        .conteudo{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin:20px;
+        }
+        
+        form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form select,
+form button {
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 1.6em;
+}
+ 
